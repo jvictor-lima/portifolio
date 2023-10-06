@@ -1,0 +1,93 @@
+/* @media screen and (max-width: 600px) {
+  .cont_list{
+    display: none;
+  }
+  .menu_hamburguer{
+    display: flex;
+    margin-right:2rem;
+  }
+
+  .cont_quemsoueu {
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+.profile_imagem {
+  max-width: 320px;
+  max-height: 320px;
+  margin-left:0 ;
+}
+.descricao_quemsoueu {
+  max-width: 100%;
+  text-align: center;
+  width: 400px;
+  margin: 4rem 0;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  .titulo_caixa {
+    text-align: center;
+  }
+
+  .social_midia-apresentacao {
+    text-align: center;
+  }
+
+  .cont_project-imagens{
+    text-align: center;
+    margin: 5rem 0;
+  }
+  
+  .cont_project-imagens .cont-imagens {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0px;
+  }
+  .cont_project-imagens .cont-imagens img {
+    width: 322px;
+    height: 186px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .cont_skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+  .cont_list-competencies{
+    position: relative;
+    width: 224px;
+    height: 386px;
+    
+  }
+  .cont_skilss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+  }
+
+  .cont_skills-imagem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cont_imagem {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+  }
+} */

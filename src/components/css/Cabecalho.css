@@ -1,0 +1,112 @@
+/* Estilos para telas grandes */
+
+.perso_ctor{
+  color: #FFFFFF; 
+}
+.perso_silva{
+  color: #FFFFFF;
+}
+.logo_header{
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #9E9D9C;
+  padding: 0 2rem;
+}
+.box_conteudo {
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-menu {
+  display: none; /* Esconde o menu de hambúrguer em telas grandes */
+}
+
+.navegacao_lista {
+  list-style: none;
+  margin: 0 ;
+  padding: 0;
+  display: flex;
+}
+.navegacao_lista li {
+  padding: 0 1rem;
+  font-size: 19px;
+  font-weight: 200;
+  font-family: 'Ubuntu';
+}
+.navegacao_lista li a:hover{
+  color: rgb(197, 197, 197);
+  transition: 0.2s;
+  background-color: rgb(102, 102, 102);
+  padding: 0.3rem 2rem;
+  border-radius: 20px;
+}
+
+.conteudo_lista {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+}
+
+/* Estilos para telas pequenas (menu de hambúrguer) */
+@media screen and (max-width: 768px) {
+  .box_conteudo{
+    padding: 0 2rem;
+  }
+  .mobile-menu {
+    display: block; /* Mostra o ícone do menu de hambúrguer em telas menores */
+    cursor: pointer;
+  }
+
+  .navegacao_lista {
+    display: none; /* Esconde a lista de navegação em telas menores */
+    flex-direction: column;
+    position: absolute;
+    top: 66px;
+    right: 0;
+    width: 300px;
+    height: 200px;
+    background-color: #2a2a2a;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: translateX(0);
+  }
+  .navegacao_lista.open{
+    transform: translateX(100%);
+    transition: 0.6s;
+  }
+
+  .navegacao_lista.active {
+    display: flex; /* Mostra a lista de navegação quando o menu de hambúrguer é clicado */
+    justify-content: space-around;
+
+  }
+
+  .navegacao_lista li {
+    margin: 0;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #555;
+  }
+
+  .navegacao_lista li:last-child {
+    border-bottom: none;
+  }
+
+  .conteudo_lista {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+
+  .conteudo_lista:hover {
+    background-color: #555;
+  }
+}

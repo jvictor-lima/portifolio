@@ -1,0 +1,10 @@
+
+#root,body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #333;
+  max-width: 100%; /* Define a largura máxima como 100% da largura da janela do navegador */
+  overflow-x: hidden; /* Oculta a rolagem horizontal se o conteúdo ainda assim ultrapassar a largura da janela */
+  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}

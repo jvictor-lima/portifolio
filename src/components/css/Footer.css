@@ -1,0 +1,38 @@
+.cont_rodape{
+  height: 100%;
+  background: #1A1A1A;
+  padding: 1rem 0;
+}
+.titulo_rodape{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.desc_rodape{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+.social_midia-rodape {
+  text-align: center;
+  margin: 1.8rem  0;
+}
+.social_midia-rodape a{
+  padding: 1rem;
+}
+
+
+.social_midia-rodape img:hover{
+  transform: scale(1.3);
+}
